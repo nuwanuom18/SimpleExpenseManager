@@ -27,8 +27,8 @@ public class PersistentExpenseManager extends ExpenseManager{
         AccountDAO databaseAccountDAO = new DatabaseAccountDAO(context);
         setAccountsDAO(databaseAccountDAO);
 
-        Account dummyAcct1 = new Account("12345A", "Yoda Bank", "Anakin Skywalker", 10000.0);
-        Account dummyAcct2 = new Account("78945Z", "Clone BC", "Obi-Wan Kenobi", 80000.0);
+        Account dummyAcct1 = new Account("180003L", "Bank of Ceylon", "Nuwan Madushanka", 10000.0);
+        Account dummyAcct2 = new Account("18000XX", "Peoples Bank", "Supun Madushan", 80000.0);
         getAccountsDAO().addAccount(dummyAcct1);
         getAccountsDAO().addAccount(dummyAcct2);
 

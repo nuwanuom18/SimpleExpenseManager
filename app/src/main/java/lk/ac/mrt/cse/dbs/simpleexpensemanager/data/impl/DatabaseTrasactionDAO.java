@@ -21,7 +21,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
 public class DatabaseTrasactionDAO extends SQLiteOpenHelper implements TransactionDAO {
     public DatabaseTrasactionDAO(Context context) {
-        super(context, "Appdbmst.db", null, 1);
+        super(context, "180003L_T", null, 1);
     }
 
     @Override
